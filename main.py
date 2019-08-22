@@ -126,7 +126,6 @@ if __name__ == "__main__":
             cover = resizeimage.resize_cover(image, [10, 10], validate = False)
             cover.save('apple-resize.png', image.format)
 
-
     width = 500
     height = 500
     black = (0, 0, 0)
